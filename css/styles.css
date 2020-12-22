@@ -3455,15 +3455,15 @@ div.impdates{
 
 }
 
-@media(min-width:471px) and (min-height:780px){
+@media(min-width:471px) and (min-height:700px){
   .HeadingAbout{
   font-size: 31px; 
   }
   .image-cropper{
-    top:22.2%;
+    top:24.9%;
   }
   .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
-    top:52%;
+    top:56%;
   }
 }
 
