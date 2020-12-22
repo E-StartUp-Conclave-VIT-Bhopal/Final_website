@@ -211,7 +211,8 @@ html {
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:201vh;
+  min-height:1100px;
+  height:201vh;
   width:100%;
   position:relative;
 }
@@ -1047,7 +1048,8 @@ h1{
 }
 
   .aboutconclavediv{
-    min-height:195vh;
+
+    height:195vh;
   }
 
   .main{
@@ -1325,7 +1327,7 @@ div.impdates{
 @media(min-height:640px){
   .aboutconclavediv{
   background-color:#10327E;
-  min-height:170vh;
+  height:170vh;
   width:100%;
   position:relative;
 }
@@ -1876,7 +1878,9 @@ div.impdates{
 }
 
 @media (min-height:780px){
-  
+  .aboutconclavediv{
+    max-height:1350px;
+  }
   .image-cropper {
     top:22%;
   }
@@ -2072,7 +2076,9 @@ div.impdates{
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:155vh;
+  min-height:1100px;
+  height:155vh;
+  max-height:1110px;
   width:100%;
   position:relative;
 }
@@ -2762,7 +2768,8 @@ div.impdates{
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:155vh;
+  height:155vh;
+  max-height:1290px;
   width:100%;
   position:relative;
 }
@@ -3289,12 +3296,13 @@ div.impdates{
 .bottomSocials:hover .instashow{
     display: none;
 }
+
 }
 
 @media (min-height:840px) and (min-width:411px) {
   .aboutconclavediv{
   background-color:#10327E;
-  min-height:148vh;
+  height:148vh;
   width:100%;
   position:relative;
   }
@@ -3346,7 +3354,8 @@ div.impdates{
 @media (min-height:867px) and (min-width:411px) {
   .aboutconclavediv{
   background-color:#10327E;
-  min-height:140vh;
+  height:140vh;
+  max-height:1300px;
   width:100%;
   position:relative;
   }
@@ -3394,8 +3403,6 @@ div.impdates{
 }
 }
 
-
-
 @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
 
   .image-cropper{
@@ -3408,8 +3415,12 @@ div.impdates{
 }
 
 
-@media (min-width: 425px) {
 
+@media (min-width: 425px) {
+  .aboutconclavediv{
+    height:154vh;
+    min-height:1090px;
+  }
   .image-cropper{
     top:30%;
   }
@@ -3421,7 +3432,8 @@ div.impdates{
   }
   .aboutconclavediv{
   background-color:#10327E;
-  min-height:148vh;
+  height:148vh;
+  max-height:1292px;
   width:100%;
   position:relative;
   }
@@ -3471,8 +3483,11 @@ div.impdates{
 
 
 
-
 @media (min-width:475px){
+  .aboutconclavediv{
+    min-height:1120px;
+    max-height:1400px;
+  }
 
   .bottom-register{
     position:fixed;
@@ -3717,6 +3732,8 @@ div.impdates{
 
 }
 
+
+
 /* Medium devices (desktops, 992px and up)
 @media (min-width: @screen-md-min) {
 
@@ -3815,6 +3832,10 @@ div.impdates{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     right:5.5%;
+}
+
+.aboutconclavediv{
+  min-height:1185px;
 }
 
 .image-cropper {
@@ -4124,7 +4145,9 @@ div.impdates{
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:110vh;
+  min-height:620px;
+  height:110vh;
+  max-height:640px;
   width:100%;
   position:relative;
 }
@@ -4552,7 +4575,8 @@ h1{
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:60vh;
+  height:60vh;
+  min-height:650px;
   width:100%;
   position:relative;
 }
@@ -4783,7 +4807,7 @@ h1{
 
 .aboutusdiv{
   background-color:#10327E;
-  min-height:135vh;
+  height:135vh;
   width:100%;
   position:relative;
 }
@@ -5051,7 +5075,8 @@ h1{
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:120vh;
+  min-height: 645px;
+  height:120vh;
   width:100%;
   position:relative;
 }
@@ -5473,7 +5498,8 @@ h1{
 }
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:50vh;
+  height:50vh;
+  max-height: 700px;
   width:100%;
   position:relative;
 }
@@ -5922,7 +5948,8 @@ h1{
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:130vh;
+  height:130vh;
+  min-height: 690px;
   width:100%;
   position:relative;
 }
@@ -6427,7 +6454,7 @@ h1{
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:100vh;
+  height:100vh;
   width:100%;
   position:relative;
 }
