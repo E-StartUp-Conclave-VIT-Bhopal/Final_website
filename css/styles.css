@@ -3704,6 +3704,18 @@ div.impdates{
 
 }
 
+@media(min-width:475px) and (min-height:868px){
+  .HeadingAbout{
+  font-size: 32px; 
+  }
+  .image-cropper{
+    top:21%;
+  }
+  .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
+    top:45.5%;
+  }
+}
+
 /* Medium devices (desktops, 992px and up)
 @media (min-width: @screen-md-min) {
 
