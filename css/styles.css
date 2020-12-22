@@ -49,13 +49,14 @@ html {
 
 .univlogo{
   position:absolute;
-  top:5px;
-  right:10px;
+  top:17px;
+  right:20px;
   transition:transform .1s ease-in-out;
+  z-index: 1000;
 }
 .univlogo img{
-  height:80px;
-  width:80px;
+  height:61px;
+  width:95px;
 }
 
 .univlogo:hover{
@@ -114,12 +115,12 @@ html {
     line-height: 1.1!important;
 }
 .phrase{
-    font-family:"Segoe UI";
+    font-family:"Bookman Old Style";
     font-size:17px;
-    color:#cfa704;
-    font-style: oblique;
+    color:#235077;
     text-align:center;
-     line-height: 1 !important;
+    line-height: 1 !important;
+    font-style: italic;
 }
 
 .infoText{
@@ -459,7 +460,7 @@ div.impdates{
 
 .team{
     width:100%;
-    min-height:1200px;
+    height:1200px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -481,12 +482,12 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
   font-family: "Bookman Old Style";
-  font-size:11px;
+  font-size:10px;
   color:#dedede;
   overflow: hidden;
 }
@@ -508,7 +509,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -525,11 +525,19 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+
+.col-12 .card .contactinfo{
+    height:0%;
+    border-radius:0;
+    
+}
+.col-12 .card:hover .contactinfo{
     height:19%;
     
 }
@@ -1029,13 +1037,13 @@ h1{
 
 .univlogo{
   position:absolute;
-  top:6px;
-  right:10px;
+  top:19px;
+  right:13px;
   transition:transform .1s ease-in-out;
 }
 .univlogo img{
-  height:100px;
-  width:100px;
+  height:71px;
+  width:115px;
 }
 
   .aboutconclavediv{
@@ -1164,7 +1172,7 @@ div.impdates{
 
 .team{
     width:100%;
-    min-height:1200px;
+    height:1200px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -1186,7 +1194,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -1213,7 +1221,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -1230,11 +1237,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:18%;
     
 }
@@ -1487,7 +1496,7 @@ div.impdates{
 
 .team{
     width:100%;
-    min-height:1200px;
+    height:1200px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -1509,7 +1518,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 65%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -1536,7 +1545,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -1553,11 +1561,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:20%;
     
 }
@@ -1828,7 +1838,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
     width:100%;
     padding:0.25rem;
@@ -1846,11 +1855,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:13%;
     
 }
@@ -1891,6 +1902,7 @@ div.impdates{
   }
   
 }
+
 
 @media(min-width:411px){
    .bottom-register{
@@ -1949,13 +1961,13 @@ div.impdates{
 
 .univlogo{
   position:absolute;
-  top:14px;
-  right:10px;
+  top:30px;
+  right:15px;
   transition:transform .1s ease-in-out;
 }
 .univlogo img{
-  height:100px;
-  width:100px;
+  height:75px;
+  width:118px;
 }
 .ourLogo img{
    height:120px;
@@ -1990,10 +2002,9 @@ div.impdates{
     line-height: 1.1!important;
 }
 .phrase{
-    font-family:"Segoe UI";
+    font-family:"Bookman Old Style";
     font-size:17px;
-    color:#cfa704;
-    font-style: oblique;
+     color:#235077;
     text-align:center;
      line-height: 1 !important;
 }
@@ -2310,7 +2321,7 @@ div.impdates{
 
 .team{
     width:100%;
-    height:1300px;
+    height:1150px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -2332,7 +2343,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -2359,7 +2370,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -2376,11 +2386,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:21%;
     
 }
@@ -2474,7 +2486,7 @@ div.impdates{
 
 .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:48.8%;
+  top:48%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -2679,10 +2691,9 @@ div.impdates{
     line-height: 1.1!important;
 }
 .phrase{
-    font-family:"Segoe UI";
+    font-family:"Bookman Old Style";
     font-size:17px;
-    color:#cfa704;
-    font-style: oblique;
+     color:#235077;
     text-align:center;
      line-height: 1 !important;
 }
@@ -3000,7 +3011,7 @@ div.impdates{
 
 .team{
     width:100%;
-    height:1300px;
+    height:1200px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -3022,7 +3033,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -3049,7 +3060,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -3066,11 +3076,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:21%;
     
 }
@@ -3154,7 +3166,7 @@ div.impdates{
 
 .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:48%;
+  top:47.5%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -3278,12 +3290,64 @@ div.impdates{
     display: none;
 }
 }
+
+@media (min-height:840px) and (min-width:411px) {
+  .aboutconclavediv{
+  background-color:#10327E;
+  min-height:148vh;
+  width:100%;
+  position:relative;
+  }
+.events{
+  background-color:#10327E;
+  width:100%;
+  position:relative;
+  min-height:152vh;
+}
+ .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
+  position:absolute;
+  top:47%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 340px;
+  height: 340px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+  border: 5px solid #dedede;
+}
+
+.aboutusdiv{
+  background-color:#10327E;
+  min-height:204vh;
+  width:100%;
+  position:relative;
+}
+
+.aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
+  position:absolute;
+  top:48.8%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 330px;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+  border: 5px solid #dedede;
+}
+
+}
+
 @media (min-width: 425px) {
 
   .image-cropper{
     top:30%;
   }
 }
+
 
 @media (min-width:475px){
 
@@ -3395,7 +3459,7 @@ div.impdates{
   }
   .team{
     width:100%;
-    height:1300px;
+    height:1180px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -3417,7 +3481,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -3444,7 +3508,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -3461,11 +3524,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:21%;
     
 }
@@ -3653,7 +3718,7 @@ div.impdates{
 
 .team{
     width:100%;
-    height:1300px;
+    height:550px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -3675,7 +3740,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -3702,7 +3767,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -3719,11 +3783,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:21%;
     
 }
@@ -3857,12 +3923,12 @@ div.impdates{
 
 .univlogo{
   position:absolute;
-  top:17px;
+  top:30px;
   right:30px;
   transition:transform .1s ease-in-out;
 }
 .univlogo img{
-  height:120px;
+  height:80px;
   width:120px;
 }
 
@@ -3887,7 +3953,7 @@ div.impdates{
     line-height: 1.1!important;
 }
 .phrase{
-    font-size:18px;
+    font-size:14px;
     line-height: 1.4!important;
 }
 .infoText{
@@ -4126,7 +4192,7 @@ div.impdates{
 
 .team{
     width:100%;
-    min-height:200px;
+    height:550px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -4148,7 +4214,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -4175,7 +4241,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -4192,11 +4257,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:29%;
     
 }
@@ -4782,12 +4849,12 @@ h1{
 .univlogo{
   z-index:1000;
   position:absolute;
-  top:16px;
+  top:32px;
   right:20px;
   transition:transform .1s ease-in-out;
 }
 .univlogo img{
-  height:120px;
+  height:70px;
   width:120px;
 }
 
@@ -5052,7 +5119,7 @@ div.impdates{
 
 .team{
     width:100%;
-    min-height:300px;
+    height:600px;
     background-image: url(../images/background.png);
     background-size: 100%;
 }
@@ -5074,12 +5141,12 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
   font-family: "Bookman Old Style";
-  font-size:15px;
+  font-size:13px;
   color:#dedede;
   overflow: hidden;
 }
@@ -5101,7 +5168,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -5118,11 +5184,13 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+.col-12 .card:hover .contactinfo{
     height:29%;
     
 }
@@ -5389,7 +5457,7 @@ h1{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -5416,7 +5484,6 @@ h1{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -5433,11 +5500,14 @@ h1{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+
+.col-12 .card:hover .contactinfo{
     height:29%;
     
 }
@@ -5653,13 +5723,13 @@ h1{
 
 .univlogo{
   position:absolute;
-  top:18px;
+  top:25px;
   right:60px;
   transition:transform .1s ease-in-out;
 }
 .univlogo img{
-  height:120px;
-  width:120px;
+  height:93px;
+  width:140px;
 }
 
 .univlogo:hover{
@@ -5684,7 +5754,7 @@ h1{
     line-height: 1.1!important;
 }
 .phrase{
-    font-size:32px;
+    font-size:28px;
     line-height: 1.4!important;
 }
 .infoText{
@@ -5918,7 +5988,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 60%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -5945,7 +6015,6 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
 }
 
@@ -5962,11 +6031,14 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+
+.col-12 .card:hover .contactinfo{
     height:29%;
     
 }
@@ -6187,7 +6259,7 @@ h1{
     line-height: 1.1!important;
 }
 .phrase{
-    font-size:32px;
+    font-size:30px;
     line-height: 1.4!important;
 }
 .infoText{
@@ -6445,7 +6517,7 @@ div.impdates{
 
 .col-6 .card{
   width: 100%;
-  height: 98%;
+  height: 50%;
   background-color: transparent;
   margin:auto;
   border-radius: 15px;
@@ -6463,7 +6535,7 @@ div.impdates{
   display: inline-block;
 }
 .col-6 .card img{
-  height:80%;
+  height:0%;
 }
 
 .card:hover img{
@@ -6472,11 +6544,12 @@ div.impdates{
 }
 
 .card .card-body{
-    border-radius:0 0 15px 15px;
     background: #1E3D58; 
+    border-radius:0px;
 }
 
 .card .card-text{
+  border-radius:0px;
   color:#E0B400; 
   font-style: italic;
   font-size:13px;
@@ -6489,11 +6562,14 @@ div.impdates{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    height:0%;
+    height:80%;
     transition: height 0.5s ease;
     transition-delay: 0s;
+    border-radius:0 0 15px 15px;
+    padding:0 1px;
 }
-.card:hover .contactinfo{
+
+.col-12 .card:hover .contactinfo{
     height:29%;
     
 }
