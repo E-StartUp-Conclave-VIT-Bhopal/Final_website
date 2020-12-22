@@ -3291,7 +3291,7 @@ div.impdates{
 }
 }
 
-@media (min-height:830px) and (min-width:411px) {
+@media (min-height:840px) and (min-width:411px) {
   .aboutconclavediv{
   background-color:#10327E;
   min-height:148vh;
@@ -3392,6 +3392,19 @@ div.impdates{
   box-shadow: 0 4px 5px rgba(0,0,0,0.5);
   border: 5px solid #dedede;
 }
+}
+
+
+
+@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
+
+  .image-cropper{
+    top:22%;
+  }
+   .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
+  position:absolute;
+  top:43%;
+  }
 }
 
 
