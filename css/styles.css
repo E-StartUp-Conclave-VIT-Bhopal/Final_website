@@ -3298,6 +3298,8 @@ div.impdates{
   width:100%;
   position:relative;
   }
+
+  
 .events{
   background-color:#10327E;
   width:100%;
@@ -3347,6 +3349,62 @@ div.impdates{
     top:30%;
   }
 }
+
+@media (min-height:840px) and (min-width:425px) {
+  .image-cropper{
+    top:25%;
+  }
+  .aboutconclavediv{
+  background-color:#10327E;
+  min-height:148vh;
+  width:100%;
+  position:relative;
+  }
+.events{
+  background-color:#10327E;
+  width:100%;
+  position:relative;
+  min-height:152vh;
+}
+ .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
+  position:absolute;
+  top:47%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 340px;
+  height: 340px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+  border: 5px solid #dedede;
+}
+
+.aboutusdiv{
+  background-color:#10327E;
+  min-height:204vh;
+  width:100%;
+  position:relative;
+}
+
+.aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
+  position:absolute;
+  top:48.8%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 330px;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+  border: 5px solid #dedede;
+}
+
+}
+
+
+
 
 
 @media (min-width:475px){
