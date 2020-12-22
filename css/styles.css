@@ -3399,11 +3399,11 @@ div.impdates{
 @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
 
   .image-cropper{
-    top:23%;
+    top:23.5%;
   }
    .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:46%;
+  top:50%;
   }
 }
 
