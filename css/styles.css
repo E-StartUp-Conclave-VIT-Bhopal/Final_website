@@ -3350,7 +3350,7 @@ div.impdates{
   }
 }
 
-@media (min-height:840px) and (min-width:425px) {
+@media (min-width:425px) and (min-height:840px)  {
   .image-cropper{
     top:25%;
   }
