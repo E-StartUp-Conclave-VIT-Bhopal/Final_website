@@ -81,6 +81,7 @@ html {
   z-index:1000;
   background-color:#dedede;
   opacity:0.85 !important;
+  height:100%;
 }
 .NavHeaders{
   margin-right:0!important;
@@ -400,8 +401,8 @@ div.impdates{
   position:absolute;
   left: 50%;
   top:0%;
-  -webkit-transform: translate(-50%,-39.9%);
-  transform: translate(-50%,-39.9%);
+  -webkit-transform: translate(-50%,-37.2%);
+  transform: translate(-50%,-37.2%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -1603,7 +1604,7 @@ div.impdates{
   background-color:#10327E;
   width:100%;
   position:relative;
-  min-height:1420px;
+  min-height:1480px;
   height:170vh;
 }
 
@@ -3556,7 +3557,7 @@ div.impdates{
     background-size:100% 100%;
     color:#10327E;
     font-size:18px;
-    padding:44% 1% 6% 1%;
+    padding:46% 1% 6% 1%;
     margin:35% 1% 1% 0%;
     letter-spacing: 0.9px;
     word-spacing: 1px;
