@@ -213,7 +213,7 @@ html {
 
 .aboutconclavediv{
   background-color:#10327E;
-  min-height:1100px;
+  min-height:1105px;
   height:201vh;
   width:100%;
   position:relative;
@@ -255,6 +255,7 @@ div.abt:nth-of-type(3) .about{
     padding:3% 0%;
 }
 .main{
+    position:relative;
     background-image: url(../images/background.png);
     border-radius: 40px;
     background-size:100% 100%;
@@ -274,10 +275,10 @@ div.abt:nth-of-type(3) .about{
 }
 .image-cropper {
   position:absolute;
-  top:26.5%;
+  top:0;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -webkit-transform: translate(-50%,-50.5%);
+  transform: translate(-50%,-50.5%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -348,7 +349,8 @@ div.impdates{
 }
 
 .aboutcollege{
-     background-image: url(../images/background.png);
+    position: relative;
+    background-image: url(../images/background.png);
     background-size:100% 100%;
     color:#10327E;
     font-size:18px;
@@ -375,10 +377,10 @@ div.impdates{
 
 .aboutsection .aboutcollege .image-cropper {
   position:absolute;
-  top:2.2%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  top:0%;
+  -webkit-transform: translate(-50%,-43.5%);
+  transform: translate(-50%,-43.5%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -396,10 +398,10 @@ div.impdates{
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:56%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  top:0%;
+  -webkit-transform: translate(-50%,-39.9%);
+  transform: translate(-50%,-39.9%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -420,7 +422,8 @@ div.impdates{
 .guidelines{
     background-image: url(../images/background.png);
     width:100%;
-    min-height:150vh;
+    min-height:1400px;
+    height:150vh;
     background-size: 100%;
 }
 
@@ -766,10 +769,10 @@ h1{
 
 .eventsection .aboutcollege .image-cropper {
   position:absolute;
-  top:4.5%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  top:0%;
+  -webkit-transform: translate(-50%,-49.2%);
+  transform: translate(-50%,-49.2%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -787,10 +790,10 @@ h1{
 
 .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:49.2%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  top:0%;
+  -webkit-transform: translate(-50%,-44.5%);
+  transform: translate(-50%,-44.5%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -1064,7 +1067,6 @@ h1{
   }
 
 .image-cropper {
-  top:26%;
   width: 345px;
   height: 345px;
 }
@@ -1113,7 +1115,6 @@ div.impdates{
 
 .aboutsection .aboutcollege .image-cropper {
   position:absolute;
-  top:2.5%;
   width: 345px;
   height: 345px;
 }
@@ -1127,7 +1128,6 @@ div.impdates{
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:54.5%;
   width: 330px;
   height: 330px;
 }
@@ -1135,7 +1135,7 @@ div.impdates{
 .guidelines{
     background-image: url(../images/background.png);
     width:100%;
-    min-height:150vh;
+   height:150vh;
     background-size: 100%;
 }
 
@@ -1281,7 +1281,7 @@ div.impdates{
   width:100%;
   position:relative;
   height:160vh;
-  min-height:1420px;
+  min-height:1470px;
 }
 
 .eventsection .aboutcollege{
@@ -1299,7 +1299,6 @@ div.impdates{
 }
 
 .eventsection .aboutcollege .image-cropper {
-  top:5%;
   left: 50%;
   width: 330px;
   height: 330px;
@@ -1313,7 +1312,6 @@ div.impdates{
 }
 
 .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
-  top:48.9%;
   left: 50%;
   width: 330px;
   height: 330px;
@@ -1361,9 +1359,6 @@ div.impdates{
     padding:52% 0% 6% 0%;
     margin:52% 0 0 0;
     letter-spacing: 0.9px;word-spacing: 1px;
-}
-.image-cropper {
-  top:31%;
 }
 
 .image-cropper img{
@@ -1431,10 +1426,7 @@ div.impdates{
 
 .aboutsection .aboutcollege .image-cropper {
   position:absolute;
-  top:2.3%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 285px;
   height: 285px;
   overflow: hidden;
@@ -1452,10 +1444,7 @@ div.impdates{
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:56.3%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 285px;
   height: 285px;
   overflow: hidden;
@@ -1466,7 +1455,7 @@ div.impdates{
 .guidelines{
     background-image: url(../images/background.png);
     width:100%;
-    min-height:150vh;
+    height:150vh;
     background-size: 100%;
 }
 
@@ -1646,10 +1635,7 @@ div.impdates{
 
 .eventsection .aboutcollege .image-cropper {
   position:absolute;
-  top:4.8%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -1667,10 +1653,7 @@ div.impdates{
 
 .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:49%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -1889,10 +1872,7 @@ div.impdates{
   .hero{
     max-height:800px;
   }
-  .image-cropper {
-    top:27%;
-  }
-
+ 
   .aboutusdiv{
     max-height:1620px;
   }
@@ -1906,66 +1886,31 @@ div.impdates{
   .aboutconclavediv{
     max-height:1350px;
   }
-  .image-cropper {
-    top:22%;
+  .guidelines{
+    max-height: 1200px;
   }
-
   .aboutusdiv{
     height:217vh;
     max-height:1690px;
 
   }
-  .aboutsection .aboutcollege .image-cropper {
-    top:2.5%;
-  }
 
-.aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
-    top:55.8%;
-  }
   .aboutcollege:nth-of-type(2){
     padding:58% 1% 6% 1%;
     margin:47% 1% 1% 1%;
   }
 
   .events{
-      max-height:1425px;
-  }
-  .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
-    top:48%;
+      max-height:1470px;
   }
 
   .eventsection .aboutcollege:nth-of-type(2){
-    padding:47% 1% 6% 1%;
+    padding:53% 1% 6% 1%;
     margin:46% 0 0 1%;
   }
   
 }
 
-@media (min-width:375px) and (min-height:640px){
-  .eventsection .aboutcollege .image-cropper {
-  top:7%;
-}
-.eventsection .aboutcollege:nth-of-type(2) .image-cropper {
-  top:51%;
-}
-.aboutsection .aboutcollege .image-cropper{
-  top:4.3%;
-}
-
-}
-
-@media (min-width:375px) and (min-height:780px){
-  .eventsection .aboutcollege .image-cropper {
-  top:7%;
-}
-.eventsection .aboutcollege:nth-of-type(2) .image-cropper {
-  top:51%;
-}
-.aboutsection .aboutcollege .image-cropper{
-  top:4.3%;
-}
-
-}
 
 
 @media(min-width:411px){
@@ -2198,10 +2143,7 @@ div.abt:nth-of-type(3) .about{
 }
 .image-cropper {
   position:absolute;
-  top:27.5%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 365px;
   height: 365px;
   overflow: hidden;
@@ -2264,7 +2206,7 @@ div.impdates{
 
 .aboutusdiv{
   background-color:#10327E;
-  min-height:1540px;
+  min-height:1580px;
   height:405vh;
   max-height:1542px;
   width:100%;
@@ -2299,10 +2241,7 @@ div.impdates{
 
 .aboutsection .aboutcollege .image-cropper {
   position:absolute;
-  top:3.4%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 360px;
   height: 360px;
   overflow: hidden;
@@ -2320,10 +2259,7 @@ div.impdates{
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:57%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 330px;
   height: 330px;
   overflow: hidden;
@@ -2344,7 +2280,7 @@ div.impdates{
 .guidelines{
     background-image: url(../images/background.png);
     width:100%;
-    min-height:150vh;
+    height:150vh;
     background-size: 100%;
 }
 
@@ -2533,10 +2469,7 @@ div.impdates{
 
 .eventsection .aboutcollege .image-cropper {
   position:absolute;
-  top:6%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -2554,10 +2487,7 @@ div.impdates{
 
 .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:49.3%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -2891,10 +2821,7 @@ div.abt:nth-of-type(3) .about{
 }
 .image-cropper {
   position:absolute;
-  top:24%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 365px;
   height: 365px;
   overflow: hidden;
@@ -2991,10 +2918,7 @@ div.impdates{
 
 .aboutsection .aboutcollege .image-cropper {
   position:absolute;
-  top:2.4%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 360px;
   height: 360px;
   overflow: hidden;
@@ -3012,10 +2936,7 @@ div.impdates{
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:51%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 330px;
   height: 330px;
   overflow: hidden;
@@ -3036,7 +2957,7 @@ div.impdates{
 .guidelines{
     background-image: url(../images/background.png);
     width:100%;
-    min-height:150vh;
+    height:150vh;
     background-size: 100%;
 }
 
@@ -3215,10 +3136,7 @@ div.impdates{
 
 .eventsection .aboutcollege .image-cropper {
   position:absolute;
-  top:6%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -3236,10 +3154,7 @@ div.impdates{
 
 .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:47.5%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -3375,15 +3290,12 @@ div.impdates{
   background-color:#10327E;
   width:100%;
   position:relative;
-  min-height:1420px;
-  max-height:1450px;
+  min-height:1478px;
+  max-height:1478px;
 }
  .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:47%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -3402,10 +3314,7 @@ div.impdates{
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:51.4%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 330px;
   height: 330px;
   overflow: hidden;
@@ -3434,10 +3343,7 @@ div.impdates{
 }
  .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:48%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -3456,10 +3362,7 @@ div.impdates{
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:51.7%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 330px;
   height: 330px;
   overflow: hidden;
@@ -3485,17 +3388,15 @@ div.impdates{
 @media (min-width: 425px) {
   .aboutconclavediv{
     height:154vh;
-    min-height:1090px;
+    min-height:1120px;
   }
-  .image-cropper{
-    top:30%;
+
+  .guidelines{
+    min-height:1100px;
   }
 }
 
 @media (min-width:425px) and (min-height:840px)  {
-  .image-cropper{
-    top:25%;
-  }
   .aboutconclavediv{
   background-color:#10327E;
   height:148vh;
@@ -3511,10 +3412,7 @@ div.impdates{
 }
  .eventsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top:48.7%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -3531,22 +3429,19 @@ div.impdates{
   position:relative;
 }
 
-.aboutsection .aboutcollege .image-cropper {
-  top: 4%;
-}
 
 .aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
   position:absolute;
-  top: 54%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 330px;
   height: 330px;
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 0 4px 5px rgba(0,0,0,0.5);
   border: 5px solid #dedede;
+}
+.guidelines{
+  max-height:1150px;
 }
 
 }
@@ -3556,7 +3451,7 @@ div.impdates{
 
 @media (min-width:475px){
   .aboutconclavediv{
-    min-height:1150px;
+    min-height:1170px;
     max-height:1400px;
   }
 
@@ -3614,15 +3509,10 @@ div.impdates{
   background-color:#10327E;
   width:100%;
   position:relative;
-  min-height:1420px;
+  min-height:1500px;
   height:160vh;
   max-height:1445px;
 }
-
-.eventsection .aboutcollege:nth-of-type(2) .image-cropper{
-   top:48%;
- 
-  }
 
   .eventsection .aboutcollege{
     font-size:18px;
@@ -3632,7 +3522,7 @@ div.impdates{
 
 .eventsection .aboutcollege:nth-of-type(2){
     font-size:18px;
-    padding:32% 1% 6% 1%;
+    padding:42% 1% 6% 1%;
     margin:46% 0 0 1%;
  
   }
@@ -3674,9 +3564,6 @@ div.impdates{
     text-align: center;
 }
 
-.aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
-  top:54%;
-  }
   .team{
     width:100%;
     height:1180px;
@@ -3812,6 +3699,11 @@ div.impdates{
 
 }
 
+.guidelines{
+  min-height:1050px;
+  max-height:1050px;
+}
+
 }
 
 
@@ -3827,7 +3719,7 @@ div.impdates{
 @media (min-width:550px){
 
   .hero{
-    min-height:700px;
+    min-height:800px;
   }
 
   .bottom-register{
@@ -3922,33 +3814,14 @@ div.impdates{
 }
 
 .aboutconclavediv{
-  min-height:1185px;
+  min-height:1200px;
 }
 
-.image-cropper {
-  top:32%;
-  }
-
   .events{
-    min-height:1470px;
-  }
-
-.eventsection .aboutcollege .image-cropper {
-  top:8%;
-  }
-
-.eventsection .aboutcollege:nth-of-type(2) .image-cropper {
-  top:53%;
+    min-height:1530px;
   }
 
 
-.aboutsection .aboutcollege .image-cropper {
-  top:6.5%;
-  }
-
-.aboutsection .aboutcollege:nth-of-type(2) .image-cropper {
-  top:59.7%;
-  }
 
 
 .team{
@@ -4089,6 +3962,11 @@ div.impdates{
     width:34vw;
 }
 
+.guidelines{
+  min-height:900px;
+  max-height:960px;
+}
+
 }
 
 @media(min-width: 768px) {
@@ -4138,7 +4016,7 @@ div.impdates{
 .hero{
    background-image: url("../images/hero2.png");
     width:100%;
-    min-height:460px;
+    min-height:505px;
     height:100vh;
     max-height:700px;
     background-size:100% 100%;
@@ -4266,6 +4144,7 @@ div.abt:nth-of-type(3) .about{
     padding:8% 0%;
 }
 .main{
+  position:static;
   background-image: url(../images/focus2.png);
     border-radius: 40px;
     font-size:18px;
@@ -4345,6 +4224,7 @@ div.impdates{
 }
 
 .aboutcollege{
+   position:static;
     background-image: url(../images/focus2.png);
     font-size:15px;
     padding:8% 3% 6% 33%;
@@ -4402,7 +4282,7 @@ div.impdates{
 
 .guidelines{
     width:100%;
-    min-height:100vh;
+    height:100vh;
     background-size: 100%;
 }
 
@@ -4662,7 +4542,7 @@ h1{
 @media(min-width: 768px) and (min-height: 1020px)  {
 .guidelines{
     width:100%;
-    min-height:40vh;
+    height:40vh;
     background-size: 100%;
 }
 
@@ -5076,7 +4956,7 @@ h1{
 .hero{
    background-image: url("../images/hero2.png");
     width:100%;
-    min-height:100vh;
+    height:100vh;
     background-size:100% 100%;
 }
 .subhero{
@@ -5337,7 +5217,9 @@ div.impdates{
 
 .guidelines{
     width:100%;
-    min-height:100vh;
+    min-height:740px;
+    height:100vh;
+    max-height:800px;
     background-size: 100%;
 }
 
@@ -5595,7 +5477,7 @@ h1{
 .hero{
    background-image: url("../images/hero2.png");
     width:100%;
-    min-height:40vh;
+    height:40vh;
     background-size:100% 100%;
 }
 .aboutconclavediv{
@@ -5680,7 +5562,7 @@ h1{
 
 .guidelines{
     width:100%;
-    min-height:40vh;
+   height:40vh;
     background-size: 100%;
 }
 
@@ -5954,7 +5836,8 @@ h1{
 .hero{
    background-image: url("../images/hero2.png");
     width:100%;
-    min-height:120vh;
+    min-height:600px;
+    height:120vh;
     background-size:100% 100%;
 }
 .subhero{
@@ -6188,7 +6071,7 @@ div.impdates{
 
 .guidelines{
     width:100%;
-    min-height:100vh;
+    height:100vh;
     background-size: 100%;
 }
 
@@ -6493,7 +6376,7 @@ h1{
 .hero{
    background-image: url("../images/hero2.png");
     width:100%;
-    min-height:100vh;
+    height:100vh;
     background-size:100% 100%;
 }
 .subhero{
@@ -6720,7 +6603,7 @@ div.impdates{
 
 .guidelines{
     width:100%;
-    min-height:100vh;
+    height:100vh;
     background-size: 100%;
 }
 
