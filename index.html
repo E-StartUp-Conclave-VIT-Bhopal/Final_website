@@ -8,11 +8,18 @@
     <link rel="shortcut icon" href="images/logo-crop.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/script.js"></script>
+    <link href="css/styles.less" type="text/css" rel="stylesheet/less" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script  src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="js/jquery-3.5.1.slim.js"></script>
+    <script src="js/less.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="js/aos.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 </head>
 <body style="background-color:#e6e6e6" onscroll="isInViewport()">
     <div class="bottomSocials">
@@ -51,17 +58,16 @@
                 <a class="nav-link NavHeaders"  href="#EC">About E-Conclave</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link NavHeaders" href="#SP">Speakers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link NavHeaders" href="#EV">Event</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link NavHeaders" href="#TL">Timeline</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link NavHeaders"  href="#GL">Guidelines</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link NavHeaders"  href="#EV">Event</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link NavHeaders"  href="#TL">Timeline</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link NavHeaders"  href="#AU" style="width:131px;">About Us</a>
             </li>
             
           </ul>
@@ -73,7 +79,7 @@
             <div data-aos="fade" data-aos-duration="1200" data-aos-delay='600' class="phrase">For the ones who choose to be extraordinary</div>
             <div data-aos="fade" data-aos-duration="1200" data-aos-delay='750' class="infoText">An E-Summit organised by VIT Bhopal Business School to be a link between the aspiring and the triumphant.</div>
             <div data-aos="fade" data-aos-duration="1200" data-aos-delay='750' class="date">Event Date: 18 Februrary, 2021</div>
-            <div data-aos="fade" data-aos-duration="1200" data-aos-delay='750' class="lastregister">Last date to Register: 12 Februrary,2021</div>
+            <div data-aos="fade" data-aos-duration="1200" data-aos-delay='750' class="lastregister">Last date to Register: 10 Februrary,2021</div>
             <a href="https://tinyurl.com/yxm3d567" target="_blank">
             <div data-aos="fade" data-aos-duration="1200" data-aos-delay='900' id='btn' class="mainButton">
                <span class="registerText"> Register </span>
@@ -254,58 +260,7 @@
                         </div>
                     </div> --> 
 
-    <div data-aos="fade-up" id="GL" class="guidelines">
-        <div data-aos="fade" class="headingguidelines">
-            Competition <span style="font-style: oblique;">Guidelines</span>
-        </div>
-        <div class="container">
-            <div class="dividerguidelines">---- </div>
-            <h6 class="registrationcost">
-                <span style="font-style:oblique;"> Registration Costs:</span> 
-                <span> ₹ 200/-</span>
-                <span style="font-style:italic;">per member </span>
-            </h6>
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <ul>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            A team can consist of anywhere between 3 to 5 members.
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            All team members must be cuurently enrolled in an undergraduate program.
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            Each member must be able to present a valid ID (for example college ID).
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            Your idea should have a practical revenue model along with a cost structure for the product
-                            or service you are providing.
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            You should present a business plan which should come with a new product or procees or
-                            service.
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            A PPT is compulsory for the presentation.
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            The whole presentation should not exceed 15 minutes
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            The deadline for the submission of required PPT will not be extended in any cause
-                            whatsoever.
-                        </li>
-                        <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
-                            Further guidelines will be communicated once the team's registration is confirmed.
-                        </li>
-                    </ul>
-                    <h6 data-aos="fade-up" data-aos-duration="1300"
-                        style="font-family:'Bookman Old Style'; color:#10327E; font-size:15px;letter-spacing: 0.9px;word-spacing: 1.4px;line-height:200%;">
-                       NOTE: Your idea must not be plagiarised;</h6>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- <div data-aos="fade-up" class="team" style="background:#10327E;">
         <div data-aos="fade"
@@ -344,6 +299,82 @@
             </div>
         </div>
     </div> -->
+
+
+    <div id="SP" class="speakers active-with-click" data-aos="fade-up">
+        <div data-aos="fade" class="headingguidelines" style="color:#10327E;">
+            Event Speakers
+        </div>
+
+        <div class="arrange row">
+        <div class="col-lg-4 col-md-5 col-sm-7 col-10" style="margin-bottom: 10px;">
+            <article class="material-card mc-active Red" data-aos="fade" data-aos-duration="1200" data-aos-delay='450'>
+                <h2>
+                    <span>Shirshendu Bharadwaj</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        India's Biggest Ambassador
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive"
+                            src="images/Shirshendu-Bharadwaj.jpg">
+                    </div>
+                    <div class="mc-description">
+                        Mr. Shirshendu Bharadwaj is an Indian entrepreneurial leader, public figure, poet, space developer & enterprising 
+                        personality. Referred to in the media as the "Ambassador", "King of Bhopal" and "Tiger". He has appeared in more than 3000 
+                        Entrepreneuship national events. The Entrepreneurship Cell, IIT Kharagpur India has awarded him the desgnation "Bhopal 
+                        City Ambassador". He was awarded designation of Earth ambassador for project Green Revolution which was cause supported by NASA.
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                    </h4>
+                    <a target="_blank" href="https://www.facebook.com/shirshendu.bharadwaj" class="infolinks fab fa-fw fa-facebook"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/shirshendu-bharadwaj-054211103/?originalSubdomain=in" class="infolinks fab fa-fw fa-linkedin"></a>
+                </div>
+            </article>
+        </div>
+
+        <div class="col-lg-4 col-md-5 col-sm-7 col-10" style="margin-bottom: 10px;">
+            <article class="material-card mc-active Red" data-aos="fade" data-aos-duration="1200" data-aos-delay='670'>
+                <h2>
+                    <span>Poonam Shroti</span>
+                    <strong>
+                        <i class="fa fa-fw fa-star"></i>
+                        Social Activist
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="images/Poonam_Shroti.jpg">
+                    </div>
+                    <div class="mc-description">
+                        Meet Ms. Poonam Shroti , Founder of Uddip Social Welfare Society, CEO of Ummeideknayeudaan, a Motivational Speaker, TEDx
+                        Speaker, Youth Icon, Social Activist, Campaigner and Social Entrepreneur. Uddip Social Welfare Society is a registered organization that focuses on Empowerment of differently abled, 
+                        Women Empowerment and Rural Development. She takes personal interest in counseling and motivating and it is no 
+                        wonder that She is a Role Model to many. Her motto to motivate youth is “If I Can, you definitely Can”
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                    </h4>
+                    <a target="_blank" href="https://www.facebook.com/Poonam-Shroti-105011589930114" class="infolinks fab fa-fw fa-facebook"></a>
+                    <a target="_blank" href="https://twitter.com/poonam_shroti?lang=en" class="infolinks fab fa-fw fa-twitter"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/poonam-shroti-56a1689/?originalSubdomain=in" class="infolinks fab fa-fw fa-linkedin"></a>
+                </div>
+            </article>
+        </div>
+        </div>
+    </div>
+
 
 
     <div data-aos="fade-up" id="EV" class="events">
@@ -545,7 +576,7 @@
                             <h3>Registration Ends</h3>
                         </div>
                         <div class="time">
-                            <h4>Februrary 12, 2021</h4>
+                            <h4>Februrary 10, 2021</h4>
                         </div>
                     </li>
     
@@ -555,7 +586,7 @@
                             <h3>Project Title Submission</h3>
                         </div>
                         <div class="time">
-                            <h4>Februrary 15, 2021</h4>
+                            <h4>Februrary 12, 2021</h4>
                         </div>
                     </li>
     
@@ -596,6 +627,209 @@
     </div>
     </div>
 
+
+        <div data-aos="fade-up" id="GL" class="guidelines">
+            <div data-aos="fade" class="headingguidelines">
+                Competition <span style="font-style: oblique;">Guidelines</span>
+            </div>
+            <div class="container">
+                <div class="dividerguidelines">---- </div>
+                <h6 class="registrationcost">
+                    <span style="font-style:oblique;"> Registration Costs:</span>
+                    <span> ₹ 200/-</span>
+                    <span style="font-style:italic;">per member </span>
+                </h6>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <ul>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                A team can consist of anywhere between 3 to 5 members.
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                All team members must be cuurently enrolled in an undergraduate program.
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                Each member must be able to present a valid ID (for example college ID).
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                Your idea should have a practical revenue model along with a cost structure for the product
+                                or service you are providing.
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                You should present a business plan which should come with a new product or procees or
+                                service.
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                A PPT is compulsory for the presentation.
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                The whole presentation should not exceed 15 minutes
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                The deadline for the submission of required PPT will not be extended in any cause
+                                whatsoever.
+                            </li>
+                            <li data-aos="fade" data-aos-duration="1300" class="registrationinfo">
+                                Further guidelines will be communicated once the team's registration is confirmed.
+                            </li>
+                        </ul>
+                        <h6 data-aos="fade-up" data-aos-duration="1300"
+                            style="font-family:'Bookman Old Style'; color:#dedede; font-size:15px;letter-spacing: 0.9px;word-spacing: 1.4px;line-height:200%;">
+                            NOTE: Your idea must not be plagiarised;</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div data-aos="fade-up" class="team">
+        <div data-aos="fade"
+            style="text-align:center;font-size: 50px; color:#1E3D58;font-family:Bookman Old Style;padding-top:1.5%;">
+            Our <span style="color:#E0B400;font-style: italic;">Team</span>
+        </div>
+        <div class="container">
+            <div style="text-align:center;font-size: 35px; color:#1E3D58;font-family:Bookman Old Style;">
+                Mentors
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <a href="tel:+91-9937704985" style="text-decoration:none;">
+                        <div class="card mb-4">
+                            <img class="card-img-top" alt="Thumbnail [100%x225]" src="images/fac1.jpeg">
+                            <div class="contactinfo">
+                                <h6 class="card-title">Contact Info<br>9937704985</h6>
+                            </div>
+                            <div class="card-body text-center">
+                                Dr. Brahmadev Panda<br>
+                                <span class="card-text">
+                                    Faculty Business School
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" alt="Thumbnail [100%x225]" src="images/fac2.jpg">
+                        <div class="card-body text-center">
+                            Dr. Manisha Singh<br>
+                            <span class="card-text">
+                                Assitant Professor, SASL
+                            </span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-4">
+                    <div class="card mb-4">
+                        <img class="card-img-top" alt="Thumbnail [100%x225]" src="images/sarv.jpg">
+                        <div class="card-body text-center">
+                            Dr. Saravanan J
+                            <br>
+                            <span class="card-text">
+                                Assistant Professor, SASL
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;font-size: 35px; color:#1E3D58;font-family:Bookman Old Style;">
+                Event Managers
+            </div>
+            <div class="row">
+                <div class='col-6 col-sm-3'>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            Aishwar Govil
+                        </div>
+                        <div class="contactinfo">
+                            <div class="card-title">
+                                <span style="color:#E0B400">Contact Info</span>
+                                <a style='color:white;' href="tel:+91-9867159178">
+                                    <br>9867159178
+                                </a>
+                                <br>
+                                <span style="color:#E0B400">Email</span>
+                                <br>
+                                <a style='color:white;' href="mailto:aishwar.govil2018@vitbhopal.ac.in">
+                                    aishwar.govil2018@vitbhopal.ac.in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class='col-6 col-sm-3'>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            Devansh Jain
+                        </div>
+                        <div class="contactinfo">
+                            <div class="card-title">
+                                <span style="color:#E0B400">Contact Info</span>
+                                <a style='color:white;' href="tel:+91-9407271890">
+                                    <br>9407271890
+                                </a><br>
+                                <span style="color:#E0B400">Email</span>
+                                <br>
+                                <a style='color:white;' href="mailto:devansh.jain2018@vitbhopal.ac.in">
+                                    devansh.jain2018@vitbhopal.ac.in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class='col-6 col-sm-3'>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            Anurag Gadgil
+                        </div>
+                        <div class="contactinfo">
+                            <div class="card-title">
+                                <span style="color:#E0B400">Contact Info</span>
+                                <a style='color:white;' href="tel:+91-9987239436">
+                                    <br>9987239436
+                                </a>
+                                <br>
+                                <span style="color:#E0B400">Email</span>
+                                <a style='color:white;' href="mailto:anurag.gadgil2017@vitbhopal.ac.in">
+                                    <br>anurag.gadgil2017@vitbhopal.ac.in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class='col-6 col-sm-3'>
+    
+                    <div class="card">
+                        <div class="card-body text-center">
+                            Sanskar Ranka
+                        </div>
+                        <div class="contactinfo">
+                            <div class="card-title">
+                                <span style="color:#E0B400">Contact Info</span>
+                                <a style='color:white;' href="tel:+91-9987239436">
+                                    <br>9987239436
+                                </a>
+                                <br>
+                                <span style="color:#E0B400">Email</span>
+                                <br>
+                                <a style='color:white;' href="mailto:sanskar.ranka2018@vitbhopal.ac.in">
+                                    sanskar.ranka2018@vitbhopal.ac.in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div data-aos="fade-up" data-aos-duration="900" id="AU" class="aboutusdiv">
         <div data-aos="fade-up" class="HeadingAbout">
             About <span style="color:#E0B400;font-style: italic;">Us</span>
@@ -633,156 +867,7 @@
         </div>
 
     
-    <div data-aos="fade-up" class="team">
-        <div data-aos="fade" style="text-align:center;font-size: 50px; color:#1E3D58;font-family:Bookman Old Style;padding-top:1.5%;">
-            Our <span style="color:#E0B400;font-style: italic;">Team</span>
-        </div>
-        <div class="container">
-            <div style="text-align:center;font-size: 35px; color:#1E3D58;font-family:Bookman Old Style;">
-                Mentors
-            </div>
-        <div class="row">
-            <div class="col-12 col-sm-4">
-                <a href="tel:+91-9937704985" style="text-decoration:none;">
-                <div class="card mb-4">
-                    <img class="card-img-top" alt="Thumbnail [100%x225]"
-                        src="images/fac1.jpeg">
-                    <div class="contactinfo">
-                        <h6 class="card-title">Contact Info<br>9937704985</h6>
-                    </div>
-                    <div class="card-body text-center">
-                            Dr. Brahmadev Panda<br>
-                            <span class="card-text">
-                                Faculty Business School
-                            </span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-4">
-                <div class="card mb-4">
-                    <img class="card-img-top"
-                        alt="Thumbnail [100%x225]" 
-                     src="images/fac2.jpg"
-                        >
-                    <div class="card-body text-center">
-                            Dr. Manisha Singh<br>
-                            <span class="card-text">
-                                    Assitant Professor, SASL
-                            </span>
-                    </div>
-                </div>
-            </div>
-        
-             <div class="col-12 col-sm-4">
-                <div class="card mb-4">
-                    <img class="card-img-top"
-                        alt="Thumbnail [100%x225]" 
-                     src="images/sarv.jpg"
-                        >
-                    <div class="card-body text-center">
-                            Dr. Saravanan J
-                            <br>
-                            <span class="card-text">
-                                    Assistant Professor, SASL
-                            </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="text-align:center;font-size: 35px; color:#1E3D58;font-family:Bookman Old Style;">
-            Event Managers
-        </div>
-        <div class="row">
-             <div class='col-6 col-sm-3'>
-                <div class="card">
-                    <div class="card-body text-center">
-                            Aishwar Govil
-                    </div>
-                    <div class="contactinfo">
-                        <div class="card-title">
-                            <span style="color:#E0B400">Contact Info</span>
-                            <a style='color:white;' href="tel:+91-9867159178">
-                            <br>9867159178
-                            </a>
-                            <br>
-                            <span style="color:#E0B400">Email</span>
-                            <br>
-                            <a style='color:white;' href="mailto:aishwar.govil2018@vitbhopal.ac.in">
-                            aishwar.govil2018@vitbhopal.ac.in
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                </a>
-            </div>
-             <div class='col-6 col-sm-3'>
-                <div class="card">
-                    <div class="card-body text-center">
-                        Devansh Jain
-                    </div>
-                    <div class="contactinfo">
-                        <div class="card-title">
-                            <span style="color:#E0B400">Contact Info</span>
-                            <a style='color:white;' href="tel:+91-9407271890">
-                            <br>9407271890
-                            </a><br>
-                            <span style="color:#E0B400">Email</span>
-                            <br>
-                            <a style='color:white;' href="mailto:devansh.jain2018@vitbhopal.ac.in">
-                                devansh.jain2018@vitbhopal.ac.in
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-             <div class='col-6 col-sm-3'>
-                <div class="card">
-                    <div class="card-body text-center">
-                            Anurag Gadgil
-                    </div>
-                    <div class="contactinfo">
-                        <div class="card-title">
-                            <span style="color:#E0B400">Contact Info</span>
-                            <a style='color:white;' href="tel:+91-9987239436">
-                            <br>9987239436
-                            </a>
-                            <br>
-                            <span style="color:#E0B400">Email</span>
-                            <a style='color:white;' href="mailto:anurag.gadgil2017@vitbhopal.ac.in">
-                            <br>anurag.gadgil2017@vitbhopal.ac.in
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class='col-6 col-sm-3'>
-                
-                <div class="card">
-                    <div class="card-body text-center">
-                            Sanskar Ranka
-                    </div>
-                    <div class="contactinfo">
-                        <div class="card-title">
-                            <span style="color:#E0B400">Contact Info</span>
-                            <a style='color:white;' href="tel:+91-9987239436">
-                            <br>9987239436
-                            </a>
-                            <br>
-                            <span style="color:#E0B400">Email</span>
-                            <br>
-                            <a style='color:white;' href="mailto:sanskar.ranka2018@vitbhopal.ac.in">
-                            sanskar.ranka2018@vitbhopal.ac.in
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
 
     <div data-aos='fade-up' class="row" style="width:100%;padding:0;margin:0;">
         <div class="col-12 col-lg-3 col-sm-6 p-0 m-0" >
@@ -843,7 +928,8 @@
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>

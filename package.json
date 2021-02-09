@@ -1,0 +1,23 @@
+{
+  "name": "final_website",
+  "version": "1.0.0",
+  "description": "E startup conclave, a website made to promote an online event which involves a pitching competition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-StartUp-Conclave-VIT-Bhopal/Final_website.git"
+  },
+  "author": "Gursimar Singh Bedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E-StartUp-Conclave-VIT-Bhopal/Final_website/issues"
+  },
+  "homepage": "https://github.com/E-StartUp-Conclave-VIT-Bhopal/Final_website#readme",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "express": "^4.17.1"
+  }
+}

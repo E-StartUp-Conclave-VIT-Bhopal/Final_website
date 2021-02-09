@@ -296,10 +296,23 @@ div.abt:nth-of-type(3) .about{
 }
 
 .speakers{
-    width:100%;
+     width:100%;
     min-height:100vh;
     background-image: url(../images/background.png);
     background-size: 100%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 300;
+    font-size: 1em;
+    margin:0;
+}
+
+.arrange{
+   width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 /* .card{
     transition: height .5s ease-in-out !important;
@@ -400,8 +413,8 @@ div.impdates{
   position:absolute;
   left: 50%;
   top:0%;
-  -webkit-transform: translate(-50%,-37.2%);
-  transform: translate(-50%,-37.2%);
+  -webkit-transform: translate(-50%,-40%);
+  transform: translate(-50%,-40%);
   width: 290px;
   height: 290px;
   overflow: hidden;
@@ -420,7 +433,7 @@ div.impdates{
 } */
 
 .guidelines{
-    background-image: url(../images/background.png);
+    background-color:#10327E;
     width:100%;
     min-height:1400px;
     height:150vh;
@@ -430,7 +443,7 @@ div.impdates{
 .headingguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
+  color:#dedede;
   font-size: 50px;
   padding-top:1.5%;
   line-height: 115%;
@@ -439,7 +452,7 @@ div.impdates{
 .dividerguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
+  color:#dedede;
   font-size: 50px;
   margin-top:-8%;
 }
@@ -447,7 +460,7 @@ div.impdates{
 .registrationcost{
   text-align:center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:#10327E;
+  color:#dedede;
   font-size:18px;
   letter-spacing: 1px;
   word-spacing: 1.4px;
@@ -457,7 +470,7 @@ div.impdates{
 
 .registrationinfo{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  color:#10327E;
+  color:#dedede;
   font-size:21px;
   font-weight:500;
   letter-spacing: 0.9px;
@@ -996,6 +1009,13 @@ h1{
   width: 300px;
 }
 
+
+
+
+
+
+
+
 @media(min-width:375px){
   .bottom-register{
     position:fixed;
@@ -1039,6 +1059,18 @@ h1{
     left:1.1vw;
 }
 
+.infolinks{
+  transition:0.1s scale ease-in-out ;
+}
+
+.infolinks:hover{
+  cursor:pointer;
+}
+
+.infolinks:active{
+  transform: scale(0.8);
+}
+
 .ourLogo img{
    height:100px;
    width:110px; 
@@ -1076,6 +1108,9 @@ h1{
     min-height:100vh;
     background-image: url(../images/background.png);
     background-size: 100%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 300;
 }
 
 div.impdates{
@@ -1133,7 +1168,6 @@ div.impdates{
 }
 
 .guidelines{
-    background-image: url(../images/background.png);
     width:100%;
    height:150vh;
     background-size: 100%;
@@ -1142,7 +1176,7 @@ div.impdates{
 .headingguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
+  color:#dedede;
   font-size: 50px;
   padding-top:1.5%;
   line-height: 115%;
@@ -1151,7 +1185,7 @@ div.impdates{
 .dividerguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
+  color:#dedede;
   font-size: 50px;
   margin-top:-8%;
 }
@@ -1159,7 +1193,6 @@ div.impdates{
 .registrationcost{
   text-align:center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:#10327E;
   font-size:18px;
   letter-spacing: 1px;
   word-spacing: 1.4px;
@@ -1169,7 +1202,6 @@ div.impdates{
 
 .registrationinfo{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  color:#10327E;
   font-size:21px;
   font-weight:500;
   letter-spacing: 0.9px;
@@ -1370,10 +1402,13 @@ div.impdates{
 }
 
 .speakers{
-    width:100%;
+     width:100%;
     min-height:100vh;
     background-image: url(../images/background.png);
     background-size: 100%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 300;
 }
 
 div.impdates{
@@ -1453,7 +1488,6 @@ div.impdates{
   border: 5px solid #dedede;
 }
 .guidelines{
-    background-image: url(../images/background.png);
     width:100%;
     height:150vh;
     background-size: 100%;
@@ -1462,7 +1496,6 @@ div.impdates{
 .headingguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
   font-size: 50px;
   padding-top:1.5%;
   line-height: 115%;
@@ -1471,7 +1504,6 @@ div.impdates{
 .dividerguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
   font-size: 50px;
   margin-top:-8%;
 }
@@ -1479,7 +1511,6 @@ div.impdates{
 .registrationcost{
   text-align:center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:#10327E;
   font-size:18px;
   letter-spacing: 1px;
   word-spacing: 1.4px;
@@ -1489,7 +1520,6 @@ div.impdates{
 
 .registrationinfo{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  color:#10327E;
   font-size:21px;
   font-weight:500;
   letter-spacing: 0.9px;
@@ -2165,6 +2195,9 @@ div.abt:nth-of-type(3) .about{
     min-height:100vh;
     background-image: url(../images/background.png);
     background-size: 100%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 300;
 }
 /* .card{
     transition: height .5s ease-in-out !important;
@@ -2278,7 +2311,6 @@ div.impdates{
 } */
 
 .guidelines{
-    background-image: url(../images/background.png);
     width:100%;
     height:150vh;
     background-size: 100%;
@@ -2287,7 +2319,6 @@ div.impdates{
 .headingguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
   font-size: 50px;
   padding-top:1.5%;
   line-height: 115%;
@@ -2296,7 +2327,6 @@ div.impdates{
 .dividerguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
   font-size: 50px;
   margin-top:-8%;
 }
@@ -2304,7 +2334,6 @@ div.impdates{
 .registrationcost{
   text-align:center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:#10327E;
   font-size:18px;
   letter-spacing: 1px;
   word-spacing: 1.4px;
@@ -2314,7 +2343,6 @@ div.impdates{
 
 .registrationinfo{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  color:#10327E;
   font-size:21px;
   font-weight:500;
   letter-spacing: 0.9px;
@@ -2843,6 +2871,9 @@ div.abt:nth-of-type(3) .about{
     min-height:100vh;
     background-image: url(../images/background.png);
     background-size: 100%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 300;
 }
 /* .card{
     transition: height .5s ease-in-out !important;
@@ -2908,8 +2939,8 @@ div.impdates{
     background-size:100% 100%;
     color:#10327E;
     font-size:18px;
-    padding:50% 1% 6% 1%;
-    margin:40% 1% 1% 1%;
+    padding:53% 1% 6% 1%;
+    margin:43% 1% 1% 1%;
     letter-spacing: 0.9px;
     word-spacing: 1px;
     border-radius: 40px;
@@ -2955,7 +2986,6 @@ div.impdates{
 } */
 
 .guidelines{
-    background-image: url(../images/background.png);
     width:100%;
     height:150vh;
     background-size: 100%;
@@ -2964,7 +2994,6 @@ div.impdates{
 .headingguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
   font-size: 50px;
   padding-top:1.5%;
   line-height: 115%;
@@ -2973,7 +3002,6 @@ div.impdates{
 .dividerguidelines{
   font-family:'Bookman Old Style';
   text-align:center;
-  color:#10327E;
   font-size: 50px;
   margin-top:-8%;
 }
@@ -2981,7 +3009,6 @@ div.impdates{
 .registrationcost{
   text-align:center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:#10327E;
   font-size:18px;
   letter-spacing: 1px;
   word-spacing: 1.4px;
@@ -2991,7 +3018,6 @@ div.impdates{
 
 .registrationinfo{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  color:#10327E;
   font-size:21px;
   font-weight:500;
   letter-spacing: 0.9px;
@@ -4181,7 +4207,11 @@ div.abt:nth-of-type(3) .about{
 .speakers{
     width:100%;
     min-height:100vh;
+    background-image: url(../images/background.png);
     background-size: 100%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 300;
 }
 /* .card{
     transition: height .5s ease-in-out !important;
@@ -4709,6 +4739,10 @@ h1{
 
 .bottomSocials:hover{
     width:30vw;
+}
+
+.speakers{
+        min-height: 50vh;
 }
 
 }
@@ -5783,6 +5817,9 @@ h1{
 
 }
 
+.speakers{
+        min-height: 50vh;
+}
 .bottomSocials:hover{
     width:13vw;
 }
